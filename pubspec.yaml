@@ -1,0 +1,48 @@
+name: daytask
+description: A task management Flutter application.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State management
+  provider: ^6.0.5
+  
+  # Supabase
+  supabase_flutter: ^1.10.4
+  
+  # UI utils
+  cupertino_icons: ^1.0.5
+  intl: ^0.18.1
+  
+  # For handling URLs and app lifecycles
+  url_launcher: ^6.1.11
+  flutter_native_splash: ^2.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  
+  # Add assets here
+  assets:
+    - assets/images/
+
+  
+  # Add fonts here
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: assets/fonts/Poppins-Regular.ttf
+  #       - asset: assets/fonts/Poppins-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/Poppins-Bold.ttf
+  #         weight: 700
